@@ -1,0 +1,8 @@
+Moscow  (2073,847)
+Berlin  (1439,1003)
+Paris  (1024,1472)
+Rome  (1512,1671)
+United States of America  (125,1562)
+Constantinople  (2115,1662)
+Vienna  (1673,1278)
+London  (1069,1146)

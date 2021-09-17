@@ -1,0 +1,5 @@
+map_name: world_war_i_1914
+games:
+- game_name: World War I 1914
+  file_name: world_war_i_1914.xml
+version: 0

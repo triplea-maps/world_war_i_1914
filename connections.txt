@@ -1,0 +1,476 @@
+<!-- Territory Definitions -->
+<territory name="Afghanistan"/>
+<territory name="Albania"/>
+<territory name="Algeria"/>
+<territory name="Alsace"/>
+<territory name="Anglo Egyptian Sudan"/>
+<territory name="Angola"/>
+<territory name="Ankara"/>
+<territory name="Arabia"/>
+<territory name="Balearic Islands"/>
+<territory name="Belarus"/>
+<territory name="Belgian Congo"/>
+<territory name="Belgium"/>
+<territory name="Berlin"/>
+<territory name="Bohemia"/>
+<territory name="Bordeaux"/>
+<territory name="Brest"/>
+<territory name="British East Africa"/>
+<territory name="Budapest"/>
+<territory name="Bulgaria"/>
+<territory name="Burgundy"/>
+<territory name="Canada"/>
+<territory name="Coastal Barrage 1"/>
+<territory name="Coastal Barrage 2"/>
+<territory name="Coastal Barrage 3"/>
+<territory name="Coastal Barrage 4"/>
+<territory name="Coastal Barrage 5"/>
+<territory name="Coastal Barrage 6"/>
+<territory name="Coastal Barrage 7"/>
+<territory name="Coastal Barrage 8"/>
+<territory name="Coastal Barrage 9"/>
+<territory name="Constantinople"/>
+<territory name="Corsica"/>
+<territory name="Denmark"/>
+<territory name="Egypt"/>
+<territory name="Empire of Ethiopia"/>
+<territory name="Finland"/>
+<territory name="French Equatorial Africa"/>
+<territory name="French West Africa"/>
+<territory name="Galicia"/>
+<territory name="German East Africa"/>
+<territory name="Gold Coast"/>
+<territory name="Greece"/>
+<territory name="Hanover"/>
+<territory name="Himalayas"/>
+<territory name="Holland"/>
+<territory name="India"/>
+<territory name="Ireland"/>
+<territory name="Kamerun"/>
+<territory name="Karelia"/>
+<territory name="Kazakhstan"/>
+<territory name="Kiel"/>
+<territory name="Libya"/>
+<territory name="Livonia"/>
+<territory name="London"/>
+<territory name="Lorraine"/>
+<territory name="Madagascar"/>
+<territory name="Marseilles"/>
+<territory name="Mesopotamia"/>
+<territory name="Morocco"/>
+<territory name="Moscow"/>
+<territory name="Munich"/>
+<territory name="Naples"/>
+<territory name="Nigeria"/>
+<territory name="Norway"/>
+<territory name="Paris"/>
+<territory name="Persia"/>
+<territory name="Picardy"/>
+<territory name="Piedmont"/>
+<territory name="Poland"/>
+<territory name="Portugal"/>
+<territory name="Portuguese East Africa"/>
+<territory name="Prussia"/>
+<territory name="Rhodesia"/>
+<territory name="Romania"/>
+<territory name="Rome"/>
+<territory name="Ruhr"/>
+<territory name="SZ 1" water="true"/>
+<territory name="SZ 2" water="true"/>
+<territory name="SZ 3" water="true"/>
+<territory name="SZ 4" water="true"/>
+<territory name="SZ 5" water="true"/>
+<territory name="SZ 6" water="true"/>
+<territory name="SZ 7" water="true"/>
+<territory name="SZ 8" water="true"/>
+<territory name="SZ 9" water="true"/>
+<territory name="SZ 10" water="true"/>
+<territory name="SZ 11" water="true"/>
+<territory name="SZ 12" water="true"/>
+<territory name="SZ 13" water="true"/>
+<territory name="SZ 14" water="true"/>
+<territory name="SZ 15" water="true"/>
+<territory name="SZ 16" water="true"/>
+<territory name="SZ 17" water="true"/>
+<territory name="SZ 18" water="true"/>
+<territory name="SZ 19" water="true"/>
+<territory name="SZ 20" water="true"/>
+<territory name="SZ 21" water="true"/>
+<territory name="SZ 22" water="true"/>
+<territory name="SZ 23" water="true"/>
+<territory name="SZ 24" water="true"/>
+<territory name="SZ 25" water="true"/>
+<territory name="SZ 26" water="true"/>
+<territory name="SZ 27" water="true"/>
+<territory name="SZ 28" water="true"/>
+<territory name="SZ 29" water="true"/>
+<territory name="SZ 30" water="true"/>
+<territory name="Sahara"/>
+<territory name="Sardinia"/>
+<territory name="Scotland"/>
+<territory name="Serbia"/>
+<territory name="Sevastopol"/>
+<territory name="Sicily"/>
+<territory name="Silesia"/>
+<territory name="Smyrna"/>
+<territory name="Somaliland"/>
+<territory name="South West Africa"/>
+<territory name="Spain"/>
+<territory name="Spanish Morocco"/>
+<territory name="Sweden"/>
+<territory name="Switzerland"/>
+<territory name="Syrian Desert"/>
+<territory name="Tatarstan"/>
+<territory name="Togoland"/>
+<territory name="Trans-Jordan"/>
+<territory name="Trieste"/>
+<territory name="Tunisia"/>
+<territory name="Tuscany"/>
+<territory name="Tyrolia"/>
+<territory name="Ukraine"/>
+<territory name="Union of South Africa"/>
+<territory name="United States of America"/>
+<territory name="Venice"/>
+<territory name="Vienna"/>
+<territory name="Wales"/>
+<territory name="Yorkshire"/>
+
+<!-- Territory Connections -->
+<connection t1="Afghanistan" t2="Himalayas"/>
+<connection t1="Afghanistan" t2="India"/>
+<connection t1="Afghanistan" t2="Kazakhstan"/>
+<connection t1="Afghanistan" t2="Persia"/>
+<connection t1="Albania" t2="Greece"/>
+<connection t1="Albania" t2="SZ 17"/>
+<connection t1="Albania" t2="Serbia"/>
+<connection t1="Albania" t2="Trieste"/>
+<connection t1="Algeria" t2="Morocco"/>
+<connection t1="Algeria" t2="SZ 16"/>
+<connection t1="Algeria" t2="Sahara"/>
+<connection t1="Algeria" t2="Spanish Morocco"/>
+<connection t1="Algeria" t2="Tunisia"/>
+<connection t1="Alsace" t2="Belgium"/>
+<connection t1="Alsace" t2="Lorraine"/>
+<connection t1="Alsace" t2="Munich"/>
+<connection t1="Alsace" t2="Ruhr"/>
+<connection t1="Alsace" t2="Switzerland"/>
+<connection t1="Anglo Egyptian Sudan" t2="Belgian Congo"/>
+<connection t1="Anglo Egyptian Sudan" t2="British East Africa"/>
+<connection t1="Anglo Egyptian Sudan" t2="Egypt"/>
+<connection t1="Anglo Egyptian Sudan" t2="Empire of Ethiopia"/>
+<connection t1="Anglo Egyptian Sudan" t2="French Equatorial Africa"/>
+<connection t1="Anglo Egyptian Sudan" t2="SZ 28"/>
+<connection t1="Anglo Egyptian Sudan" t2="Sahara"/>
+<connection t1="Angola" t2="Belgian Congo"/>
+<connection t1="Angola" t2="Rhodesia"/>
+<connection t1="Angola" t2="SZ 24"/>
+<connection t1="Angola" t2="South West Africa"/>
+<connection t1="Angola" t2="Union of South Africa"/>
+<connection t1="Ankara" t2="Constantinople"/>
+<connection t1="Ankara" t2="Mesopotamia"/>
+<connection t1="Ankara" t2="SZ 20"/>
+<connection t1="Ankara" t2="Smyrna"/>
+<connection t1="Ankara" t2="Syrian Desert"/>
+<connection t1="Arabia" t2="Mesopotamia"/>
+<connection t1="Arabia" t2="SZ 27"/>
+<connection t1="Arabia" t2="SZ 28"/>
+<connection t1="Arabia" t2="SZ 29"/>
+<connection t1="Arabia" t2="Syrian Desert"/>
+<connection t1="Arabia" t2="Trans-Jordan"/>
+<connection t1="Balearic Islands" t2="SZ 16"/>
+<connection t1="Belarus" t2="Livonia"/>
+<connection t1="Belarus" t2="Moscow"/>
+<connection t1="Belarus" t2="Poland"/>
+<connection t1="Belarus" t2="Ukraine"/>
+<connection t1="Belgian Congo" t2="British East Africa"/>
+<connection t1="Belgian Congo" t2="French Equatorial Africa"/>
+<connection t1="Belgian Congo" t2="German East Africa"/>
+<connection t1="Belgian Congo" t2="Kamerun"/>
+<connection t1="Belgian Congo" t2="Rhodesia"/>
+<connection t1="Belgian Congo" t2="SZ 24"/>
+<connection t1="Belgium" t2="Holland"/>
+<connection t1="Belgium" t2="Lorraine"/>
+<connection t1="Belgium" t2="Picardy"/>
+<connection t1="Belgium" t2="Ruhr"/>
+<connection t1="Belgium" t2="SZ 9"/>
+<connection t1="Berlin" t2="Hanover"/>
+<connection t1="Berlin" t2="Kiel"/>
+<connection t1="Berlin" t2="Prussia"/>
+<connection t1="Berlin" t2="SZ 11"/>
+<connection t1="Berlin" t2="Silesia"/>
+<connection t1="Bohemia" t2="Galicia"/>
+<connection t1="Bohemia" t2="Hanover"/>
+<connection t1="Bohemia" t2="Munich"/>
+<connection t1="Bohemia" t2="Silesia"/>
+<connection t1="Bohemia" t2="Tyrolia"/>
+<connection t1="Bohemia" t2="Vienna"/>
+<connection t1="Bordeaux" t2="Brest"/>
+<connection t1="Bordeaux" t2="Burgundy"/>
+<connection t1="Bordeaux" t2="Marseilles"/>
+<connection t1="Bordeaux" t2="Paris"/>
+<connection t1="Bordeaux" t2="SZ 15"/>
+<connection t1="Bordeaux" t2="Spain"/>
+<connection t1="Brest" t2="Paris"/>
+<connection t1="Brest" t2="Picardy"/>
+<connection t1="Brest" t2="SZ 8"/>
+<connection t1="Brest" t2="SZ 15"/>
+<connection t1="British East Africa" t2="Empire of Ethiopia"/>
+<connection t1="British East Africa" t2="German East Africa"/>
+<connection t1="British East Africa" t2="SZ 26"/>
+<connection t1="British East Africa" t2="Somaliland"/>
+<connection t1="Budapest" t2="Galicia"/>
+<connection t1="Budapest" t2="Romania"/>
+<connection t1="Budapest" t2="Serbia"/>
+<connection t1="Budapest" t2="Trieste"/>
+<connection t1="Budapest" t2="Vienna"/>
+<connection t1="Bulgaria" t2="Constantinople"/>
+<connection t1="Bulgaria" t2="Greece"/>
+<connection t1="Bulgaria" t2="Romania"/>
+<connection t1="Bulgaria" t2="SZ 21"/>
+<connection t1="Bulgaria" t2="Serbia"/>
+<connection t1="Burgundy" t2="Lorraine"/>
+<connection t1="Burgundy" t2="Marseilles"/>
+<connection t1="Burgundy" t2="Paris"/>
+<connection t1="Burgundy" t2="Picardy"/>
+<connection t1="Burgundy" t2="Piedmont"/>
+<connection t1="Burgundy" t2="Switzerland"/>
+<connection t1="Canada" t2="SZ 2"/>
+<connection t1="Canada" t2="United States of America"/>
+<connection t1="Coastal Barrage 1" t2="Coastal Barrage 2"/>
+<connection t1="Coastal Barrage 1" t2="Coastal Barrage 4"/>
+<connection t1="Coastal Barrage 2" t2="Coastal Barrage 3"/>
+<connection t1="Coastal Barrage 2" t2="Coastal Barrage 5"/>
+<connection t1="Coastal Barrage 3" t2="Coastal Barrage 6"/>
+<connection t1="Coastal Barrage 4" t2="Coastal Barrage 5"/>
+<connection t1="Coastal Barrage 4" t2="Coastal Barrage 7"/>
+<connection t1="Coastal Barrage 5" t2="Coastal Barrage 6"/>
+<connection t1="Coastal Barrage 5" t2="Coastal Barrage 8"/>
+<connection t1="Coastal Barrage 6" t2="Coastal Barrage 9"/>
+<connection t1="Coastal Barrage 7" t2="Coastal Barrage 8"/>
+<connection t1="Coastal Barrage 8" t2="Coastal Barrage 9"/>
+<connection t1="Constantinople" t2="Greece"/>
+<connection t1="Constantinople" t2="SZ 20"/>
+<connection t1="Constantinople" t2="Smyrna"/>
+<connection t1="Corsica" t2="SZ 16"/>
+<connection t1="Denmark" t2="Kiel"/>
+<connection t1="Denmark" t2="SZ 10"/>
+<connection t1="Denmark" t2="SZ 11"/>
+<connection t1="Egypt" t2="SZ 19"/>
+<connection t1="Egypt" t2="SZ 28"/>
+<connection t1="Egypt" t2="Trans-Jordan"/>
+<connection t1="Egypt" t2="Libya"/>
+<connection t1="Egypt" t2="SZ 17"/>
+<connection t1="Egypt" t2="Sahara"/>
+<connection t1="Empire of Ethiopia" t2="SZ 28"/>
+<connection t1="Empire of Ethiopia" t2="Somaliland"/>
+<connection t1="Finland" t2="Karelia"/>
+<connection t1="Finland" t2="Norway"/>
+<connection t1="Finland" t2="SZ 6"/>
+<connection t1="Finland" t2="SZ 12"/>
+<connection t1="Finland" t2="Sweden"/>
+<connection t1="French Equatorial Africa" t2="Kamerun"/>
+<connection t1="French Equatorial Africa" t2="Sahara"/>
+<connection t1="French West Africa" t2="Gold Coast"/>
+<connection t1="French West Africa" t2="Morocco"/>
+<connection t1="French West Africa" t2="SZ 22"/>
+<connection t1="French West Africa" t2="SZ 23"/>
+<connection t1="French West Africa" t2="Sahara"/>
+<connection t1="Galicia" t2="Poland"/>
+<connection t1="Galicia" t2="Romania"/>
+<connection t1="Galicia" t2="Silesia"/>
+<connection t1="Galicia" t2="Ukraine"/>
+<connection t1="Galicia" t2="Vienna"/>
+<connection t1="German East Africa" t2="Portuguese East Africa"/>
+<connection t1="German East Africa" t2="Rhodesia"/>
+<connection t1="German East Africa" t2="SZ 26"/>
+<connection t1="Gold Coast" t2="SZ 23"/>
+<connection t1="Gold Coast" t2="Sahara"/>
+<connection t1="Gold Coast" t2="Togoland"/>
+<connection t1="Greece" t2="SZ 17"/>
+<connection t1="Greece" t2="SZ 20"/>
+<connection t1="Greece" t2="Serbia"/>
+<connection t1="Hanover" t2="Kiel"/>
+<connection t1="Hanover" t2="Munich"/>
+<connection t1="Hanover" t2="Ruhr"/>
+<connection t1="Hanover" t2="Silesia"/>
+<connection t1="Himalayas" t2="India"/>
+<connection t1="Himalayas" t2="Kazakhstan"/>
+<connection t1="Holland" t2="Kiel"/>
+<connection t1="Holland" t2="Ruhr"/>
+<connection t1="Holland" t2="SZ 10"/>
+<connection t1="India" t2="Persia"/>
+<connection t1="India" t2="SZ 29"/>
+<connection t1="Ireland" t2="SZ 3"/>
+<connection t1="Ireland" t2="SZ 7"/>
+<connection t1="Ireland" t2="SZ 8"/>
+<connection t1="Kamerun" t2="Nigeria"/>
+<connection t1="Kamerun" t2="SZ 24"/>
+<connection t1="Kamerun" t2="Sahara"/>
+<connection t1="Karelia" t2="Livonia"/>
+<connection t1="Karelia" t2="Moscow"/>
+<connection t1="Karelia" t2="SZ 6"/>
+<connection t1="Karelia" t2="SZ 12"/>
+<connection t1="Kazakhstan" t2="Persia"/>
+<connection t1="Kazakhstan" t2="SZ 30"/>
+<connection t1="Kazakhstan" t2="Tatarstan"/>
+<connection t1="Kiel" t2="Ruhr"/>
+<connection t1="Kiel" t2="SZ 10"/>
+<connection t1="Libya" t2="SZ 17"/>
+<connection t1="Libya" t2="Sahara"/>
+<connection t1="Libya" t2="Tunisia"/>
+<connection t1="Livonia" t2="Moscow"/>
+<connection t1="Livonia" t2="Poland"/>
+<connection t1="Livonia" t2="SZ 12"/>
+<connection t1="London" t2="SZ 8"/>
+<connection t1="London" t2="SZ 9"/>
+<connection t1="London" t2="Wales"/>
+<connection t1="London" t2="Yorkshire"/>
+<connection t1="Lorraine" t2="Picardy"/>
+<connection t1="Lorraine" t2="Switzerland"/>
+<connection t1="Madagascar" t2="SZ 26"/>
+<connection t1="Marseilles" t2="Piedmont"/>
+<connection t1="Marseilles" t2="SZ 16"/>
+<connection t1="Marseilles" t2="Spain"/>
+<connection t1="Mesopotamia" t2="Persia"/>
+<connection t1="Mesopotamia" t2="SZ 20"/>
+<connection t1="Mesopotamia" t2="SZ 29"/>
+<connection t1="Mesopotamia" t2="Sevastopol"/>
+<connection t1="Mesopotamia" t2="Syrian Desert"/>
+<connection t1="Morocco" t2="SZ 14"/>
+<connection t1="Morocco" t2="Sahara"/>
+<connection t1="Morocco" t2="Spanish Morocco"/>
+<connection t1="Moscow" t2="Tatarstan"/>
+<connection t1="Moscow" t2="Ukraine"/>
+<connection t1="Munich" t2="Ruhr"/>
+<connection t1="Munich" t2="Switzerland"/>
+<connection t1="Munich" t2="Tyrolia"/>
+<connection t1="Naples" t2="Rome"/>
+<connection t1="Naples" t2="SZ 17"/>
+<connection t1="Naples" t2="Tuscany"/>
+<connection t1="Nigeria" t2="SZ 24"/>
+<connection t1="Nigeria" t2="Sahara"/>
+<connection t1="Nigeria" t2="Togoland"/>
+<connection t1="Norway" t2="SZ 5"/>
+<connection t1="Norway" t2="SZ 10"/>
+<connection t1="Norway" t2="Sweden"/>
+<connection t1="Paris" t2="Picardy"/>
+<connection t1="Persia" t2="SZ 29"/>
+<connection t1="Persia" t2="SZ 30"/>
+<connection t1="Persia" t2="Sevastopol"/>
+<connection t1="Picardy" t2="SZ 8"/>
+<connection t1="Picardy" t2="SZ 9"/>
+<connection t1="Piedmont" t2="SZ 17"/>
+<connection t1="Piedmont" t2="Switzerland"/>
+<connection t1="Piedmont" t2="Tuscany"/>
+<connection t1="Piedmont" t2="Venice"/>
+<connection t1="Poland" t2="Prussia"/>
+<connection t1="Poland" t2="SZ 12"/>
+<connection t1="Poland" t2="Silesia"/>
+<connection t1="Poland" t2="Ukraine"/>
+<connection t1="Portugal" t2="SZ 14"/>
+<connection t1="Portugal" t2="Spain"/>
+<connection t1="Portuguese East Africa" t2="Rhodesia"/>
+<connection t1="Portuguese East Africa" t2="SZ 26"/>
+<connection t1="Portuguese East Africa" t2="Union of South Africa"/>
+<connection t1="Prussia" t2="SZ 11"/>
+<connection t1="Prussia" t2="Silesia"/>
+<connection t1="Rhodesia" t2="Union of South Africa"/>
+<connection t1="Romania" t2="SZ 21"/>
+<connection t1="Romania" t2="Serbia"/>
+<connection t1="Romania" t2="Sevastopol"/>
+<connection t1="Romania" t2="Ukraine"/>
+<connection t1="Rome" t2="SZ 17"/>
+<connection t1="Rome" t2="Tuscany"/>
+<connection t1="SZ 1" t2="SZ 2"/>
+<connection t1="SZ 1" t2="SZ 13"/>
+<connection t1="SZ 1" t2="United States of America"/>
+<connection t1="SZ 2" t2="SZ 3"/>
+<connection t1="SZ 2" t2="SZ 7"/>
+<connection t1="SZ 2" t2="SZ 13"/>
+<connection t1="SZ 2" t2="SZ 14"/>
+<connection t1="SZ 3" t2="SZ 4"/>
+<connection t1="SZ 3" t2="SZ 7"/>
+<connection t1="SZ 3" t2="SZ 8"/>
+<connection t1="SZ 4" t2="SZ 5"/>
+<connection t1="SZ 4" t2="SZ 8"/>
+<connection t1="SZ 4" t2="SZ 9"/>
+<connection t1="SZ 4" t2="Scotland"/>
+<connection t1="SZ 5" t2="SZ 6"/>
+<connection t1="SZ 5" t2="SZ 9"/>
+<connection t1="SZ 5" t2="SZ 10"/>
+<connection t1="SZ 7" t2="SZ 8"/>
+<connection t1="SZ 7" t2="SZ 14"/>
+<connection t1="SZ 7" t2="SZ 15"/>
+<connection t1="SZ 7" t2="Spain"/>
+<connection t1="SZ 8" t2="SZ 9"/>
+<connection t1="SZ 8" t2="SZ 15"/>
+<connection t1="SZ 8" t2="Scotland"/>
+<connection t1="SZ 8" t2="Wales"/>
+<connection t1="SZ 8" t2="Yorkshire"/>
+<connection t1="SZ 9" t2="SZ 10"/>
+<connection t1="SZ 9" t2="Scotland"/>
+<connection t1="SZ 9" t2="Yorkshire"/>
+<connection t1="SZ 10" t2="SZ 11"/>
+<connection t1="SZ 11" t2="SZ 12"/>
+<connection t1="SZ 11" t2="Sweden"/>
+<connection t1="SZ 12" t2="Sweden"/>
+<connection t1="SZ 13" t2="SZ 14"/>
+<connection t1="SZ 13" t2="SZ 22"/>
+<connection t1="SZ 14" t2="SZ 16"/>
+<connection t1="SZ 14" t2="SZ 22"/>
+<connection t1="SZ 14" t2="Spain"/>
+<connection t1="SZ 14" t2="Spanish Morocco"/>
+<connection t1="SZ 15" t2="Spain"/>
+<connection t1="SZ 16" t2="SZ 17"/>
+<connection t1="SZ 16" t2="Spain"/>
+<connection t1="SZ 16" t2="Spanish Morocco"/>
+<connection t1="SZ 16" t2="Tunisia"/>
+<connection t1="SZ 17" t2="SZ 18"/>
+<connection t1="SZ 17" t2="SZ 19"/>
+<connection t1="SZ 17" t2="SZ 20"/>
+<connection t1="SZ 17" t2="Sardinia"/>
+<connection t1="SZ 17" t2="Sicily"/>
+<connection t1="SZ 17" t2="Tuscany"/>
+<connection t1="SZ 18" t2="Trieste"/>
+<connection t1="SZ 18" t2="Tuscany"/>
+<connection t1="SZ 18" t2="Venice"/>
+<connection t1="SZ 19" t2="SZ 20"/>
+<connection t1="SZ 19" t2="SZ 28"/>
+<connection t1="SZ 19" t2="Smyrna"/>
+<connection t1="SZ 19" t2="Trans-Jordan"/>
+<connection t1="SZ 20" t2="SZ 21"/>
+<connection t1="SZ 21" t2="Sevastopol"/>
+<connection t1="SZ 22" t2="SZ 23"/>
+<connection t1="SZ 23" t2="SZ 24"/>
+<connection t1="SZ 23" t2="Togoland"/>
+<connection t1="SZ 24" t2="SZ 25"/>
+<connection t1="SZ 24" t2="South West Africa"/>
+<connection t1="SZ 25" t2="SZ 26"/>
+<connection t1="SZ 25" t2="Union of South Africa"/>
+<connection t1="SZ 26" t2="SZ 27"/>
+<connection t1="SZ 27" t2="SZ 28"/>
+<connection t1="SZ 27" t2="SZ 29"/>
+<connection t1="SZ 27" t2="Somaliland"/>
+<connection t1="SZ 28" t2="Trans-Jordan"/>
+<connection t1="SZ 30" t2="Sevastopol"/>
+<connection t1="SZ 30" t2="Tatarstan"/>
+<connection t1="Sahara" t2="Togoland"/>
+<connection t1="Sahara" t2="Tunisia"/>
+<connection t1="Scotland" t2="Yorkshire"/>
+<connection t1="Serbia" t2="Trieste"/>
+<connection t1="Sevastopol" t2="Tatarstan"/>
+<connection t1="Sevastopol" t2="Ukraine"/>
+<connection t1="Smyrna" t2="Syrian Desert"/>
+<connection t1="Smyrna" t2="Trans-Jordan"/>
+<connection t1="South West Africa" t2="Union of South Africa"/>
+<connection t1="Switzerland" t2="Tyrolia"/>
+<connection t1="Switzerland" t2="Venice"/>
+<connection t1="Syrian Desert" t2="Trans-Jordan"/>
+<connection t1="Tatarstan" t2="Ukraine"/>
+<connection t1="Trieste" t2="Tyrolia"/>
+<connection t1="Trieste" t2="Venice"/>
+<connection t1="Trieste" t2="Vienna"/>
+<connection t1="Tuscany" t2="Venice"/>
+<connection t1="Tyrolia" t2="Venice"/>
+<connection t1="Tyrolia" t2="Vienna"/>
+<connection t1="Wales" t2="Yorkshire"/>
