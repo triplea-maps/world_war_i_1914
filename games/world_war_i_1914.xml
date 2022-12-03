@@ -1,4 +1,4 @@
-﻿<?xml version="1.0"?>
+<?xml version="1.0"?>
 <!DOCTYPE game SYSTEM "game.dtd">
 <game>
 	<info name="World War I 1914" version="1.0"/>
@@ -840,7 +840,6 @@
 			<option name="production" value="6"/>
 			<option name="originalFactory" value="true"/>
 			<option name="capital" value="AustroHungarians"/>
-			<option name="victoryCity" value="1"/>
 		</attachment>
 		<attachment name="territoryAttachment" attachTo="Trieste" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
 			<option name="production" value="4"/>
@@ -869,7 +868,6 @@
 			<option name="production" value="6"/>
 			<option name="originalFactory" value="true"/>
 			<option name="capital" value="Russians"/>
-			<option name="victoryCity" value="1"/>
 		</attachment>
 		<attachment name="territoryAttachment" attachTo="Sevastopol" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
 			<option name="production" value="3"/>
@@ -898,7 +896,6 @@
 			<option name="production" value="8"/>
 			<option name="originalFactory" value="true"/>
 		<option name="capital" value="Germans"/>
-		<option name="victoryCity" value="2"/>
 		</attachment>
 		<attachment name="territoryAttachment" attachTo="German East Africa" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
 			<option name="production" value="1"/>
@@ -972,7 +969,6 @@
 			<option name="production" value="6"/>
 			<option name="originalFactory" value="true"/>
 			<option name="capital" value="French"/>
-			<option name="victoryCity" value="2"/>
 		</attachment>
 		<attachment name="territoryAttachment" attachTo="Burgundy" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
 			<option name="production" value="2"/>
@@ -987,7 +983,6 @@
 			<option name="production" value="6"/>
 			<option name="originalFactory" value="true"/>
 			<option name="capital" value="British"/>
-			<option name="victoryCity" value="2"/>
 		</attachment>
 		<attachment name="territoryAttachment" attachTo="Egypt" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
 			<option name="production" value="2"/>
@@ -1040,7 +1035,6 @@
 			<option name="production" value="6"/>
 			<option name="originalFactory" value="true"/>
 			<option name="capital" value="Ottomans"/>
-			<option name="victoryCity" value="1"/>
 		</attachment>
 		<attachment name="territoryAttachment" attachTo="Ankara" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
 			<option name="production" value="3"/>
@@ -1049,7 +1043,6 @@
 			<option name="production" value="3"/>
 			<option name="originalFactory" value="true"/>
 			<option name="capital" value="Italians"/>
-			<option name="victoryCity" value="1"/>
 		</attachment>
 		<attachment name="territoryAttachment" attachTo="Venice" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
 			<option name="production" value="2"/>
@@ -1079,7 +1072,6 @@
 			<option name="production" value="20"/>
 			<option name="originalFactory" value="true"/>
 			<option name="capital" value="Americans"/>
-			<option name="victoryCity" value="1"/>
 		</attachment>
 		<attachment name="territoryAttachment" attachTo="Portugal" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
 			<option name="production" value="2"/>
@@ -1265,15 +1257,67 @@
 		</attachment>
 		
 	<!-- Victory Conditions -->
-    <property name="Honorable Surrender" value="true" editable="false">
-      <boolean/>
-    </property>
-    <property name="Central Powers Honorable Victory VCs" value="6" editable="true">
-      <number min="0" max="11"/>
-    </property>
-    <property name="Allied Powers Honorable Victory VCs" value="9" editable="true">
-      <number min="0" max="11"/>
-    </property>		
+		
+		<!-- Allied Powers Victory -->
+		
+		<attachment name="conditionAttachmentAlliedVictory1" attachTo="British" javaClass="games.strategy.triplea.attachments.RulesAttachment" type="player">
+			<option name="alliedOwnershipTerritories" value="Berlin:Vienna" count="2"/>
+		</attachment>
+		<attachment name="conditionAttachmentAlliedVictory2" attachTo="British" javaClass="games.strategy.triplea.attachments.RulesAttachment" type="player">
+			<option name="alliedOwnershipTerritories" value="Berlin:Constantinople" count="2"/>
+		</attachment>
+
+		<attachment name="conditionAttachmentAlliedVictory" attachTo="British" javaClass="games.strategy.triplea.attachments.RulesAttachment" type="player">
+			<option name="conditions" value="conditionAttachmentAlliedVictory1:conditionAttachmentAlliedVictory2"/>
+			<option name="conditionType" value="OR"/>
+		</attachment>
+		
+		<!-- Central Powers Victory -->
+		
+		<attachment name="conditionAttachmentCentralVictory1" attachTo="Germans" javaClass="games.strategy.triplea.attachments.RulesAttachment" type="player">
+			<option name="alliedOwnershipTerritories" value="Paris:Moscow" count="2"/>
+		</attachment>
+		<attachment name="conditionAttachmentCentralVictory2" attachTo="Germans" javaClass="games.strategy.triplea.attachments.RulesAttachment" type="player">
+			<option name="alliedOwnershipTerritories" value="Paris:Rome" count="2"/>
+		</attachment>
+		<attachment name="conditionAttachmentCentralVictory3" attachTo="Germans" javaClass="games.strategy.triplea.attachments.RulesAttachment" type="player">
+			<option name="alliedOwnershipTerritories" value="Paris:London" count="2"/>
+		</attachment>
+		<attachment name="conditionAttachmentCentralVictory4" attachTo="Germans" javaClass="games.strategy.triplea.attachments.RulesAttachment" type="player">
+			<option name="alliedOwnershipTerritories" value="Paris:United States of America" count="2"/>
+		</attachment>
+		<attachment name="conditionAttachmentCentralVictory5" attachTo="Germans" javaClass="games.strategy.triplea.attachments.RulesAttachment" type="player">
+			<option name="alliedOwnershipTerritories" value="London:Moscow" count="2"/>
+		</attachment>
+		<attachment name="conditionAttachmentCentralVictory6" attachTo="Germans" javaClass="games.strategy.triplea.attachments.RulesAttachment" type="player">
+			<option name="alliedOwnershipTerritories" value="London:Rome" count="2"/>
+		</attachment>
+		<attachment name="conditionAttachmentCentralVictory7" attachTo="Germans" javaClass="games.strategy.triplea.attachments.RulesAttachment" type="player">
+			<option name="alliedOwnershipTerritories" value="London:United States of America" count="2"/>
+		</attachment>
+		
+		<attachment name="conditionAttachmentCentralVictory" attachTo="Germans" javaClass="games.strategy.triplea.attachments.RulesAttachment" type="player">
+			<option name="conditions" value="conditionAttachmentCentralVictory1:conditionAttachmentCentralVictory2:conditionAttachmentCentralVictory3:conditionAttachmentCentralVictory4:conditionAttachmentCentralVictory5:conditionAttachmentCentralVictory6:conditionAttachmentCentralVictory7"/>
+			<option name="conditionType" value="OR"/>
+		</attachment>
+		
+		<!-- Victory Triggers -->
+		
+		<attachment name="triggerAttachmentAlliedVictory" attachTo="British" javaClass="games.strategy.triplea.attachments.TriggerAttachment" type="player">
+			<option name="trigger" value="conditionAttachmentAlliedVictory"/>
+			<!--<option name="when" value="after:ottomansEndTurn"/>-->
+			<option name="victory" value="The Allied Powers achieve victory by controlling Berlin and another Central Power capital!"/>
+			<option name="players" value="Russians:French:British:Italians:Americans"/>
+		</attachment>
+
+		<attachment name="triggerAttachmentCentralVictory" attachTo="Germans" javaClass="games.strategy.triplea.attachments.TriggerAttachment" type="player">
+			<option name="trigger" value="conditionAttachmentCentralVictory"/>
+			<!--<option name="when" value="after:americansEndTurn"/>-->
+			<option name="victory" value="The Central Powers achieve victory by controlling Paris or London and another Allied Power capital!"/>
+			<option name="players" value="AustroHungarians:Germans:Ottomans"/> 
+		</attachment>
+		
+		<!--/Victory Triggers-->
 		
 		<attachment name="playerAttachment" attachTo="Neutral_Allied" javaClass="games.strategy.triplea.attachments.PlayerAttachment" type="player">
 			<option name="captureUnitOnEnteringBy" value="Russians:French:British:Italians:Americans"/>
@@ -1732,6 +1776,10 @@
 		</property>
 		<property name="Americans bid" value="0" editable="true">
 			<number min="0" max="1000"/>
+		</property>
+		
+		<property name="Triggered Victory" value="true" editable="true">
+			<boolean/>
 		</property>
 		
 		<property name="Low Luck" value="false" editable="true">
